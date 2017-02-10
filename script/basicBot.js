@@ -1445,7 +1445,7 @@
             API.chatLog('Emoji toggling disabled. Preceeding settings loaded.');
             //socket();
             //loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version}))); 
-			loadChat(API.sendChat("\/me »AN» ANBot 1.0 Now loaded!"));
+			loadChat(API.sendChat("\/me »MCL» MCLBot 1.0 Now loaded!"));
         },
         commands: {
             executable: function (minRank, chat) {
