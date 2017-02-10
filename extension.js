@@ -100,8 +100,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "arkhamBot",
       language: "english",
-      chatLink: "https://rawgit.com/SkillsAura/ANBot/master/lang/en.json",
-      scriptLink: "https://rawgit.com/SkillsAura/ANBot/master/script/basicBot.js",
+      chatLink: "https://rawgit.com/SkillsAura/MCLBot/master/lang/en.json",
+      scriptLink: "https://rawgit.com/SkillsAura/MCLBot/master/script/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
@@ -153,17 +153,17 @@
       fbLink: null,
       youtubeLink: null,
       website: null,
-      intervalMessages: ["»Alert» For more awesome music check out BassBoostOfficial! https://goo.gl/wolxoY", "»Alert»  Ensure you know our rules!", "»Alert»  Need to check your psoition in the queue? Type !eta!", "»Alert»  Need help? Tag a staff member, or type @.Staff <message> (Without the comma!)", "»Alert»  Check out ArkhamNetwork's official TWITTER! https://twitter.com/arkhamnetwork"], 
+      intervalMessages: ["»Alert» For more awesome music check out BassBoostOfficial! https://goo.gl/wolxoY", "»Alert»  Ensure you know our rules!", "»Alert»  Need to check your psoition in the queue? Type !eta!", "»Alert»  Need help? Tag a staff member, or type @.Staff <message> (Without the comma!)", "»Alert»  Check out MCL's official TWITTER! https://twitter.com/MCLegendNetwork"],              
       messageInterval: 3,
       songstats: true,
       commandLiteral: "!",
       blacklists: {
-        op: "https://rawgit.com/SkillsAura/ANBot/master/blacklists/op.json",
-        bl: "https://rawgit.com/SkillsAura/ANBot/master/blacklists/bl.json"
+        op: "https://rawgit.com/SkillsAura/MCLBot/master/blacklists/op.json",
+        bl: "https://rawgit.com/SkillsAura/MCLBot/master/blacklists/bl.json"
       }
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/SkillsAura/ANBot/master/script/basicBot.js", extend);
+    $.getScript("https://rawgit.com/SkillsAura/MCLBot/master/script/basicBot.js", extend);
 
 }).call(this);
